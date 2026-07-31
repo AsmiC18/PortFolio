@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asmi Chaudhary — Portfolio</title>
+<meta name="description" content="Asmi Chaudhary — Full Stack Developer & B.Tech IT student at VIT Vellore.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-ambient" aria-hidden="true">
+  <span class="base"></span>
+  <span class="blob blob-a"></span>
+  <span class="blob blob-b"></span>
+  <span class="blob blob-c"></span>
+</div>
+
+<header class="tabbar" id="tabbar">
+  <div class="tabbar-inner">
+    <div class="tabbar-brand">
+      <span class="brand-text">Portfolio</span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <a href="#about" class="tab active" data-tab="about.js">About</a>
+      <a href="#skills" class="tab" data-tab="skills.js">Skills</a>
+      <a href="#projects" class="tab" data-tab="projects.js">Projects</a>
+      <a href="#achievements" class="tab" data-tab="achievements.js">Achievements</a>
+      <a href="#contact" class="tab" data-tab="contact.js">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+
+  <section class="hero" id="about">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>Hi, I'm Asmi.</h1>
+        <p class="hero-sub">
+          I am a B.Tech Information Technology student at VIT Vellore, focused on full-stack web development
+          and data structures &amp; algorithms. I like turning messy problems into clean, working software.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View projects</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/AsmiC18" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/asmichaudhary06/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-hidden="true">
+        <div class="panel-head">
+          <span class="panel-file">profile.json</span>
+        </div>
+   <pre class="panel-code"><code><span class="tok-punc">{</span>
+  <span class="tok-key">"name"</span><span class="tok-punc">:</span> <span class="tok-str">"Asmi Chaudhary"</span><span class="tok-punc">,</span>
+  <span class="tok-key">"role"</span><span class="tok-punc">:</span> <span class="tok-str">"Software Developer"</span><span class="tok-punc">,</span>
+  <span class="tok-key">"education"</span><span class="tok-punc">:</span> <span class="tok-str">"B.Tech Information Technology, VIT Vellore"</span><span class="tok-punc">,</span>
+  <span class="tok-key">"interests"</span><span class="tok-punc">:</span> <span class="tok-punc">[</span>
+    <span class="tok-str">"Full Stack Development"</span><span class="tok-punc">,</span>
+    <span class="tok-str">"Software Engineering"</span><span class="tok-punc">,</span>
+    <span class="tok-str">"Data Structures &amp; Algorithms"</span>
+  <span class="tok-punc">]</span>
+<span class="tok-punc">}</span></code></pre>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="education">
+    <div class="container">
+      <p class="eyebrow">/education</p>
+      <div class="edu-list">
+        <div class="edu-item">
+          <div class="edu-top">
+            <h3>Vellore Institute of Technology</h3>
+            <span class="edu-year">2024 – 2028</span>
+          </div>
+          <p class="edu-role">B.Tech, Information Technology · Vellore, Tamil Nadu</p>
+          <p class="edu-meta">Current CGPA: 9.05</p>
+        </div>
+        <div class="edu-item">
+          <div class="edu-top">
+            <h3>Amity International School</h3>
+            <span class="edu-year">2024</span>
+          </div>
+          <p class="edu-role">CBSE Class XII · Mayur Vihar, New Delhi</p>
+          <p class="edu-meta">Percentage: 95.4%</p>
+        </div>
+        <div class="edu-item">
+          <div class="edu-top">
+            <h3>Mayoor School</h3>
+            <span class="edu-year">2022</span>
+          </div>
+          <p class="edu-role">CBSE Class X · Noida, Uttar Pradesh</p>
+          <p class="edu-meta">Percentage: 98.2%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="eyebrow">/skills</p>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-label">Languages</span>
+          <div class="tag-row">
+            <span class="tag tag-strong">Java</span>
+            <span class="tag">C</span><span class="tag">C++</span><span class="tag">JavaScript</span><span class="tag">Python</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-label">Core Concepts</span>
+          <div class="tag-row">
+            <span class="tag">Data Structures &amp; Algorithms</span><span class="tag">OOP</span><span class="tag">Problem Solving</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-label">Frontend</span>
+          <div class="tag-row">
+            <span class="tag">React.js</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Vite</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-label">Backend &amp; Database</span>
+          <div class="tag-row">
+            <span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">MongoDB</span><span class="tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-label">Tools</span>
+          <div class="tag-row">
+            <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-label">Areas of Interest</span>
+          <div class="tag-row">
+            <span class="tag">Software Development</span><span class="tag">Full Stack</span><span class="tag">DSA</span><span class="tag">Web Development</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="eyebrow">/projects</p>
+      <h2>Projects &amp; Hackathons</h2>
+
+      <div class="project-list">
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>FocusHub</h3>
+            <a href="https://github.com/AsmiC18/FocusHub" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+          </div>
+          <p class="project-tagline">Productivity management platform — notes, tasks &amp; goals in one workspace.</p>
+          <ul class="project-points">
+            <li>Full-stack app with a React frontend and a custom Express/Node.js REST API backend, centralizing note-taking, task management, and goal tracking.</li>
+            <li>15+ RESTful endpoints with full CRUD operations, backed by MongoDB via Mongoose with structured schemas per data model.</li>
+            <li>Three custom React Hooks — <code>useNotes</code>, <code>useTasks</code>, <code>useGoals</code> — encapsulating async calls and state, keeping UI decoupled from data logic.</li>
+            <li>Interactive dashboard with real-time counts, pending task and active goal summaries, and per-module activity feeds.</li>
+            <li>React Router-based navigation with a reusable, modular component hierarchy.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">JavaScript</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>BudgetBee</h3>
+            <a href="https://github.com/AsmiC18/BudgetBee" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+          </div>
+          <p class="project-tagline">Personal finance manager with secure, role-based access.</p>
+          <ul class="project-points">
+            <li>Full-stack finance app built with Node.js, Express, MongoDB, HTML, CSS, and JavaScript.</li>
+            <li>Authentication, role-based access control, and session management for secure user access.</li>
+            <li>REST APIs with CRUD operations for transactions, budgets, categories, and financial goals.</li>
+            <li>Analytics dashboard visualizing income, expenses, and spending patterns.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span><span class="tag">HTML/CSS</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>VinnovateIT Club Website</h3>
+            <span class="project-link project-link-muted">Frontend Developer</span>
+          </div>
+          <p class="project-tagline">Frontend contributions during the Summer 2025 project cycle.</p>
+          <ul class="project-points">
+            <li>Designed and improved the Board Members page, focused on responsive layouts and visual consistency.</li>
+            <li>Added and maintained content across the Domains, Projects, and Events sections within an existing codebase.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Frontend</span><span class="tag">Responsive Design</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>Criminal Record Management System</h3>
+            <span class="project-link project-link-muted">Data Structures Project</span>
+          </div>
+          <p class="project-tagline">Efficient storage, retrieval, and search over criminal records.</p>
+          <ul class="project-points">
+            <li>Implemented Hash Tables, AVL Trees, and Tries to optimize lookups, reward-based queries, and prefix searches.</li>
+            <li>CRUD functionality with multi-criteria search by ID, name, category, and reward amount.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Hash Tables</span><span class="tag">AVL Trees</span><span class="tag">Tries</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS + EXTRACURRICULAR -->
+  <section class="section section-alt" id="achievements">
+    <div class="container achievements-grid">
+      <div>
+        <p class="eyebrow">/achievements</p>
+        <h2>Achievements</h2>
+        <ul class="plain-list">
+          <li>Solved 150+ Data Structures and Algorithms problems on LeetCode.</li>
+          <li>Regularly practicing problem-solving and core CS concepts.</li>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow">/extracurricular</p>
+        <h2>Extracurricular</h2>
+        <ul class="plain-list">
+          <li>Technical Member, Mozilla Firefox Club.</li>
+          <li>Participated in multiple university-level hackathons.</li>
+          <li>Active member of technical communities and collaborative learning groups.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section contact" id="contact">
+    <div class="container">
+      <p class="eyebrow">/contact</p>
+     <h2>Contact</h2>
+<p class="contact-sub">Thank you for visiting my portfolio. Feel free to connect through any of the platforms below.</p>
+      <div class="contact-grid">
+        <a href="mailto:asmichaudhary06@gmail.com" class="contact-card">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">asmichaudhary06@gmail.com</span>
+        </a>
+        <a href="tel:+918076344088" class="contact-card">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+91 80763 44088</span>
+        </a>
+        <a href="https://github.com/AsmiC18" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/AsmiC18</span>
+        </a>
+        <a href="https://www.linkedin.com/in/asmichaudhary06/" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">in/asmichaudhary06</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
